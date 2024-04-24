@@ -5,7 +5,8 @@
 ## Abstract
 <p align="justify">Nowadays the accurate geo-localization of ground-view images has an important role across different domains, including journalism, forensics analysis, and Earth Observation. This work addresses the problem of matching a query ground-view image with the corresponding satellite image without GPS data. This is done by comparing the features from a ground view image with a satellite one together with its segmentation mask through a three-stream Siamese-like network. The proposed method focuses on limited Field-of-View (FoV) and ground panorama images (images with a FoV of 360°). The novelty is in the fusion of satellite images in combination with their segmentation masks, aimed at ensuring that the model can extract features and focus on the significant parts of the images. This work shows how the proposed model through semantic segmentation mask images improves the performance on the unlabelled CVUSA dataset on all the tested FoV.</p>
 
-
+## Model 
+![plot](./Model_f.png)
 
 ## Requirements
 1. This code uses ```TensorFlow 2.10.0``` ```numpy 1.25.2``` ```cv2 4.8.0``` and run on modern GPU of at least 6GB of memory
